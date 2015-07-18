@@ -1,16 +1,67 @@
-# Goals
+import nipype.interfaces.fsl as fsl
 
-parse a single brain map and extract header stuffs to get tags
-for all cases, be able to write back and forth between icons and NIDM results
-be able to parse a paper and produce likely tags (ask researcher about?)
-first is an interface (that could be added to neurovault) for user to select tags (and populate neurovault)
-mousing over a tag anywhere takes to some about page
-tags can be included in: manuscripts (figures text), personal content (blogs, twitter), NeuroVault, websites, etc.
+FUNCTIONS
+[fsl_mask]: fsl.ApplyMask
+[fsl_bedpostx]: fsl.BEDPOSTX,fsl.BEDPOSTX4,fsl.BEDPOSTX5
+[fsl_mean]: fsl.MeanImage
+[fsl_merge]: fsl.Merge
+[fsl_bet]: fsl.BET
+[fsl_smooth]: fsl.Smooth, fsl.SmoothEstimate
+[fsl_probtrackx]: fsl.ProbTrackX, fsl.ProbTrackX2
+[fsl_melodic]: fsl.MELODIC
+[fsl_mcflirt]: fsl.MCFLIRT
 
-# Steps
-- Make list of tags to have (start with NIDM result standards)
-- Describe what icon will look like for each
-- Generate ttf file with icons (draft first)
-- Convert to eof
-- Use font-awesome as an example to demonstrate use
-- Make interface to tag OR try parsing papers...
+NUMERICAL
+[fsl_version]
+[fsl_voxel]
+
+
+UNACCOUNTED FOR
+fsl.ApplyTOPUP             
+fsl.ApplyWarp              
+fsl.Merge
+fsl.ApplyXfm               fsl.MultiImageMaths
+fsl.MultipleRegressDesign
+fsl.Overlay
+fsl.PRELUDE
+fsl.PlotMotionParams
+fsl.BinaryMaths            fsl.PlotTimeSeries
+fsl.ChangeDataType         fsl.PowerSpectrum
+fsl.Cluster                fsl.PrepareFieldmap
+fsl.Complex                
+fsl.ContrastMgr            
+fsl.ConvertWarp            fsl.ProjThresh
+fsl.ConvertXFM             fsl.Randomise
+fsl.DTIFit                 fsl.Reorient2Std
+fsl.DilateImage            fsl.SMM
+fsl.DistanceMap            fsl.SUSAN
+fsl.EPIDeWarp              fsl.SigLoss
+fsl.Eddy                   fsl.SliceTimer
+fsl.EddyCorrect            fsl.Slicer
+fsl.EpiReg                 
+fsl.ErodeImage             fsl.SmoothEstimate
+fsl.ExtractROI             fsl.SpatialFilter
+fsl.FAST                   fsl.Split
+fsl.FEAT                   fsl.SwapDimensions
+fsl.FEATModel              fsl.TOPUP
+fsl.FEATRegister           fsl.TemporalFilter
+fsl.FILMGLS                fsl.Threshold
+fsl.FIRST                  fsl.TractSkeleton
+fsl.FLAMEO                 fsl.UnaryMaths
+fsl.FLIRT                  fsl.VecReg
+fsl.FNIRT                  fsl.WarpPoints
+fsl.FSLCommand             fsl.WarpPointsToStd
+fsl.FUGUE                  fsl.WarpUtils
+fsl.FilterRegressor        fsl.XFibres
+fsl.FindTheBiggest         fsl.XFibres4
+fsl.GLM                    fsl.XFibres5
+fsl.ImageMaths             fsl.base
+fsl.ImageMeants            fsl.check_fsl
+fsl.ImageStats             fsl.dti
+fsl.Info                   fsl.epi
+fsl.InvWarp                fsl.maths
+fsl.IsotropicSmooth        fsl.model
+fsl.L2Model                fsl.no_fsl
+fsl.Level1Design           fsl.no_fsl_course_data
+                fsl.preprocess
+                fsl.utils
