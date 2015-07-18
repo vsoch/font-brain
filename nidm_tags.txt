@@ -1,0 +1,16 @@
+# Goals
+
+parse a single brain map and extract header stuffs to get tags
+for all cases, be able to write back and forth between icons and NIDM results
+be able to parse a paper and produce likely tags (ask researcher about?)
+first is an interface (that could be added to neurovault) for user to select tags (and populate neurovault)
+mousing over a tag anywhere takes to some about page
+tags can be included in: manuscripts (figures text), personal content (blogs, twitter), NeuroVault, websites, etc.
+
+# Steps
+- Make list of tags to have (start with NIDM result standards)
+- Describe what icon will look like for each
+- Generate ttf file with icons (draft first)
+- Convert to eof
+- Use font-awesome as an example to demonstrate use
+- Make interface to tag OR try parsing papers...

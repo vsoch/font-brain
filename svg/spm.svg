@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16px"
+   height="16px"
+   id="svg3121"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="spm.svg">
+  <defs
+     id="defs3123" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.8481083"
+     inkscape:cx="8"
+     inkscape:cy="6.3563255"
+     inkscape:current-layer="g3356"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1144"
+     inkscape:window-height="848"
+     inkscape:window-x="387"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3126">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <g
+       id="g3356"
+       transform="translate(-69.438394,4.5558538)">
+      <g
+         style="font-size:17.16743279px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         id="text3488">
+        <path
+           d="m 74.196341,4.5712655 c 0,-0.8884137 -0.448071,-1.3055834 -1.490991,-1.5064421 L 71.82466,2.8948658 C 70.998049,2.7326338 70.758563,2.570401 70.758563,2.1609581 c 0,-0.4248935 0.378542,-0.695281 0.973393,-0.695281 0.733907,0 1.181978,0.3090144 1.181978,0.8806893 l 1.081548,0 c 0,-1.1897018 -0.834339,-1.80773056 -2.209448,-1.80773056 -1.351934,0 -2.132195,0.63347936 -2.132195,1.73047706 0,0.8806884 0.440345,1.2901327 1.583695,1.5141675 l 0.787985,0.1545069 c 0.772534,0.1545067 1.058372,0.3167396 1.058372,0.7725344 0,0.4712455 -0.43262,0.718457 -1.135625,0.718457 -0.787984,0 -1.266957,-0.3321904 -1.266957,-0.9347666 l -1.1279,0 c 0,1.2051525 0.896141,1.8618079 2.333054,1.8618079 1.452363,0 2.309878,-0.6412047 2.309878,-1.7845545"
+           style="font-size:7.72534418px;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:-0.03411676px;fill:#000000;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+           id="path3556" />
+        <path
+           d="m 79.322513,2.3772678 c 0,-1.1278992 -0.641205,-1.74592783 -1.815456,-1.74592783 l -2.487561,0 0,5.63177593 1.158801,0 0,-2.0085895 1.44464,0 c 1.035195,0 1.699576,-0.7339088 1.699576,-1.8772586 m -1.158802,0.069528 c 0,0.5716749 -0.285838,0.8420625 -0.903865,0.8420625 l -1.081549,0 0,-1.6918504 1.081549,0 c 0.618027,0 0.903865,0.2703876 0.903865,0.8497879"
+           style="font-size:7.72534418px;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:-0.03411676px;fill:#000000;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+           id="path3558" />
+        <path
+           d="m 85.553408,6.2631159 0,-5.63177593 -1.745927,0 -0.988844,4.48069963 -1.019746,-4.48069963 -1.730477,0 0,5.63177593 1.158802,0 0,-4.3879955 1.01202,4.3879955 1.158801,0 0.99657,-4.3879955 0,4.3879955 1.158801,0"
+           style="font-size:7.72534418px;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:-0.03411676px;fill:#000000;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
+           id="path3560" />
+      </g>
+    </g>
+  </g>
+</svg>
