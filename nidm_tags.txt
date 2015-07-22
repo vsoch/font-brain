@@ -1,6 +1,17 @@
 import nipype.interfaces.fsl as fsl
 
-FUNCTIONS
+SOFTWARE (outer boxes)
+[fsl]: gray
+[spm]: blue or red
+
+INPUTS: to go outside software rectangles, connected with arrows
+[T1]
+[T2]
+[DTI]
+[FMRI](bold or task)
+
+
+FUNCTIONS: to go inside software rectangle
 [fsl_mask]: fsl.ApplyMask
 [fsl_bedpostx]: fsl.BEDPOSTX,fsl.BEDPOSTX4,fsl.BEDPOSTX5
 [fsl_mean]: fsl.MeanImage
@@ -11,7 +22,7 @@ FUNCTIONS
 [fsl_melodic]: fsl.MELODIC
 [fsl_mcflirt]: fsl.MCFLIRT
 
-NUMERICAL
+NUMERICAL (PARAMETERS) to go under in rectangle
 [fsl_version]
 [fsl_voxel]
 

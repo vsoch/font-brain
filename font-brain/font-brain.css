@@ -1,0 +1,352 @@
+
+/* Blocks */
+.pipeline {
+	background-color: #666;
+	border-radius: 7px;
+	color: white;
+	height:62px;
+	padding:5px;
+}
+
+.software {
+	background-color: #666;
+	border-radius:7px;
+	float:left;
+	padding:10px;
+}
+
+.software a.link {
+	color: black;
+}
+
+.input {
+	background-color: #337ab7;
+	color: white;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	padding: 10px;
+	float: left;
+}
+
+.input a.link {
+	color: white;
+}
+
+.output {
+	background-color: #3eb833;
+	color: white;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	padding: 10px;
+	float: left;
+}
+
+.output a.link {
+	color:white;
+}
+
+.method {
+	background-color: #CCC;
+	color: black;
+	float:left;
+	padding: 10px;
+}
+
+.method a.link {
+	color: black;
+}
+
+.method-text {
+	padding:20px;
+	background:#f0f0f0;
+	border-radius: 7px;
+	margin:25px;
+}
+
+.param {
+  margin-right:5px;
+}
+
+/* Bootstrap Elements */
+.popover-content, .popover-title {
+	width:150px;
+	color: #000
+}
+
+.infolink {
+  color: #337ab7;
+}
+
+/* Icons */
+@font-face {
+	font-family: 'font-brain';
+	src:url('fonts/font-brain.eot?-4bsbb2');
+	src:url('fonts/font-brain.eot?#iefix-4bsbb2') format('embedded-opentype'),
+		url('fonts/font-brain.ttf?-4bsbb2') format('truetype'),
+		url('fonts/font-brain.woff?-4bsbb2') format('woff'),
+		url('fonts/font-brain.svg?-4bsbb2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a, a:link, a:hover, a:focus {
+   color:inherit;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'font-brain';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	color: inherit;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Icon Style */
+/* credits to font-awesome */
+.fb-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fb-2x {
+  font-size: 2em;
+}
+.fb-3x {
+  font-size: 3em;
+}
+.fb-4x {
+  font-size: 4em;
+}
+.fb-5x {
+  font-size: 5em;
+}
+.fb-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fb-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fb-ul > li {
+  position: relative;
+}
+.fb-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fb-li.fb-lg {
+  left: -1.85714286em;
+}
+.fb-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.fb.pull-left {
+  margin-right: .3em;
+}
+.fb.pull-right {
+  margin-left: .3em;
+}
+.fb-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.fb-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fb-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fb-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fb-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fb-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fb-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .fb-rotate-90,
+:root .fb-rotate-180,
+:root .fb-rotate-270,
+:root .fb-flip-horizontal,
+:root .fb-flip-vertical {
+  filter: none;
+}
+.fb-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fb-stack-1x,
+.fb-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fb-stack-1x {
+  line-height: inherit;
+}
+.fb-stack-2x {
+  font-size: 2em;
+}
+.fb-inverse {
+  color: #ffffff;
+}
+
+/* Icons */
+.icon-2mm:before {
+	content: "\e600";
+}
+.icon-3mm:before {
+	content: "\e601";
+}
+.icon-4mm:before {
+	content: "\e602";
+}
+.icon-5mm:before {
+	content: "\e603";
+}
+.icon-6mm:before {
+	content: "\e604";
+}
+.icon-7mm:before {
+	content: "\e605";
+}
+.icon-8mm:before {
+	content: "\e606";
+}
+.icon-axial:before {
+	content: "\e607";
+}
+.icon-bet:before {
+	content: "\e608";
+}
+.icon-concat:before {
+	content: "\e609";
+}
+.icon-coronal:before {
+	content: "\e60a";
+}
+.icon-dti:before {
+	content: "\e60b";
+}
+.icon-epi:before {
+	content: "\e60c";
+}
+.icon-fmri:before {
+	content: "\e60d";
+}
+.icon-fnirt:before {
+	content: "\e60e";
+}
+.icon-fsl:before {
+	content: "\e60f";
+}
+.icon-glm:before {
+	content: "\e610";
+}
+.icon-mask:before {
+	content: "\e611";
+}
+.icon-mni:before {
+	content: "\e612";
+}
+.icon-motion:before {
+	content: "\e613";
+}
+.icon-mprage:before {
+	content: "\e614";
+}
+.icon-registration:before {
+	content: "\e615";
+}
+.icon-reslice:before {
+	content: "\e616";
+}
+.icon-reslicing:before {
+	content: "\e617";
+}
+.icon-reslicing-inverse:before {
+	content: "\e618";
+}
+.icon-sagittal:before {
+	content: "\e619";
+}
+.icon-smooth:before {
+	content: "\e61a";
+}
+.icon-spm:before {
+	content: "\e61b";
+}
+.icon-T1:before {
+	content: "\e61c";
+}
+.icon-T2:before {
+	content: "\e61d";
+}
+.icon-1mm:before {
+	content: "\e61e";
+}

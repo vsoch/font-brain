@@ -1,22 +1,25 @@
 # Font-Brain
 
-### Goals
+[Demo](http://vbmis.com/bmi/project/font-brain/)
 
-- parse a single brain map and extract header stuffs to get tags
-- for all cases, be able to write back and forth between icons and NIDM results
-- be able to parse a paper and produce likely tags (ask researcher about?)
-- first is an interface (that could be added to neurovault) for user to select tags (and populate neurovault)
-- mousing over a tag anywhere takes to some about page
-- tags can be included in: manuscripts (figures text), personal content (blogs, twitter), NeuroVault, websites, etc.
+### Specification
+- Defines input(s), method(s), and output(s)
+- Available data should be linked to inputs/outputs (e.g., openfmri, neurovault)
+- Methods should have links to function documentation
 
-### Steps
-- Make list of tags to have (start with nipype functions)
-- Make draft design icons
-- Generate ttf file
-- Convert to eof
-- Develop css/style to give structure
-- Make interface to tag OR try parsing papers!
+### Tools and Methods
+- A web interface to generate interactive web content and static figures
+- A font for use in documents
+- Icons for general web use (github, blogs, neurovault, etc.)
+- Methods to parse manuscripts for Methods
+- A final web interface to:
+  - empower researchers to filter papers by methods
+  - do meta-analysis based on methods, inputs/outputs, etc.
+  - relate significant results / findings to method and parameter choice
 
-
-#### Tags
-[tags](nidm_tags.txt)
+### Integrations
+- We should be able to:
+    - parse a single brain map and extract header stuffs to get tags
+    - be able to write back and forth between icons and NIDM results
+- NeuroVault / openfMRI
+- social networks, journals, etc.

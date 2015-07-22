@@ -11,12 +11,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16px"
    height="16px"
-   id="svg3121"
+   id="svg2985"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="mask.svg">
+   sodipodi:docname="6mm.svg">
   <defs
-     id="defs3123" />
+     id="defs2987" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,19 +25,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.696216"
-     inkscape:cx="13.449572"
-     inkscape:cy="21.263116"
+     inkscape:cx="22.146782"
+     inkscape:cy="20.978517"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1394"
-     inkscape:window-height="848"
-     inkscape:window-x="137"
+     inkscape:window-width="1535"
+     inkscape:window-height="876"
+     inkscape:window-x="65"
      inkscape:window-y="24"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="1" />
   <metadata
-     id="metadata3126">
+     id="metadata2990">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -54,22 +54,22 @@
      inkscape:groupmode="layer">
     <g
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       id="text3806"
-       transform="matrix(0.20979479,0,0,0.20979479,-1.0614162,9.4979418)">
+       id="text9401"
+       transform="matrix(0.39567233,0,0,0.39567233,4.7189663,4.9097489)">
       <path
-         d="m 28.869837,-1.7016047 c 0,-2.8799972 -1.560004,-5.160002 -4.84,-7.08 2.879997,-1.8399983 4,-3.5200023 4,-6.0000003 0,-4.119996 -3.440006,-7.68 -9.52,-7.68 l -13.0000003,0 0,29.1600003 13.1200003,0 c 6.799993,0 10.24,-3.6000048 10.24,-8.4 m -6.6,-12.4400003 c 0,2.119998 -1.480003,3.28 -4.24,3.28 l -6.52,0 0,-6.6 6.52,0 c 2.759997,0 4.24,1.160002 4.24,3.32 m 0.84,12.0800003 c 0,2.43999751 -1.520003,3.76 -4.44,3.76 l -7.16,0 0,-7.56 7.16,0 c 2.919997,0 4.44,1.3200024 4.44,3.8"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
-         id="path3811"
+         d="m -11.92645,2.5520678 8.7890627,0 0,1.6953125 -4.546875,9.9687497 -2.9296877,0 4.3046877,-9.4531247 -5.6171877,0 0,-2.2109375"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="path9624"
          inkscape:connector-curvature="0" />
       <path
-         d="m 56.096087,6.6983953 0,-5 -15.8,0 0,-7.56 13.96,0 0,-5.0000003 -13.96,0 0,-6.6 15.08,0 0,-5 -21.08,0 0,29.1600003 21.8,0"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
-         id="path3813"
+         d="m -0.40301228,2.5520678 3.82812498,0 2.65625,6.2421875 2.671875,-6.2421875 3.8203123,0 0,11.6640622 -2.8437498,0 0,-8.5312497 -2.6875,6.2890627 -1.90625,0 -2.6875,-6.2890627 0,8.5312497 -2.85156248,0 0,-11.6640622"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="path9626"
          inkscape:connector-curvature="0" />
       <path
-         d="m 81.774837,-17.461605 0,-5 -23.36,0 0,5 8.84,0 0,24.1600003 6,0 0,-24.1600003 8.52,0"
-         style="font-variant:normal;font-weight:bold;font-stretch:normal;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros Bold"
-         id="path3815"
+         d="m 15.534488,2.5520678 3.828125,0 2.65625,6.2421875 2.671875,-6.2421875 3.820312,0 0,11.6640622 -2.84375,0 0,-8.5312497 -2.6875,6.2890627 -1.90625,0 -2.6875,-6.2890627 0,8.5312497 -2.851562,0 0,-11.6640622"
+         style="font-size:16px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+         id="path9628"
          inkscape:connector-curvature="0" />
     </g>
   </g>
