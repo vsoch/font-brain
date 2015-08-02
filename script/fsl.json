@@ -1,0 +1,330 @@
+[
+    {
+        "name": "methods",
+        "children": [
+            {
+                "name": "dti",
+                "description": "diffusion tensor imaging",
+                "children": [
+                    {
+                        "name": "eddy_correct",
+                        "description": "eddy current correction"
+                    },
+                    {
+                        "name": "dtifit",
+                        "description": "fits a diffusion tensor model at each voxel"
+                    },
+                    {
+                        "name": "bedpostx",
+                        "description": "generate voxelwise distributions of diffusion parameters",
+                        "wraps": "xfibres",
+                        "children": [
+                            {
+                                "name": "make_dyadic_vectors",
+                                "description": "extract the mean fibre orientation from bedpost samples"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "probtrackx2",
+                        "description": "probabilistic tracking with crossing fibres",
+                        "children": [
+                            {
+                                "name": "proj_thresh",
+                                "description": "expresses connection probability in connectivity-based segmentation"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "probtrackx",
+                        "description": "probabilistic tracking with crossing fibres",
+                        "children": [
+                            {
+                                "name": "proj_thresh",
+                                "description": "expresses connection probability in connectivity-based segmentation"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tbss",
+                        "description": "generate voxelwise distributions of diffusion parameters",
+                        "command": "tbss_skeleton",
+                        "children": [
+                            {
+                                "name": "distancemap",
+                                "description": "calculate distance to nearest non-zero voxel"
+                            },
+                            {
+                                "name": "eddy",
+                                "description": "correct for eddy current-induced distortions and subject movements"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "filtering",
+                "children": [
+                    {
+                        "name": "susan",
+                        "description": "nonlinear filtering to reduce noise in an image while preserving the underlying structure"
+                    },
+                    {
+                        "name": "fsl_regfilt",
+                        "description": "regress out a signal (such as ICA noise component) from data"
+                    }
+                ]
+            },
+            {
+                "name": "correction",
+                "description": "estimation and artifact correction",
+                "children": [
+                    {
+                        "name": "fsl_prepare_fieldmap",
+                        "description": ""
+                    },
+                    {
+                        "name": "fugue",
+                        "description": "EPI distortion correction"
+                    },
+                    {
+                        "name": "prelude",
+                        "description": "performs 3D phase unwrapping of images"
+                    },
+                    {
+                        "name": "sigloss",
+                        "description": "estimate signal loss from a field map"
+                    },
+                    {
+                        "name": "topup",
+                        "description": "estimating and correcting susceptibility induced distortions",
+                        "command": "applytopup"
+                    }
+                ]
+            },
+            {
+                "name": "registration",
+                "children": [
+                    {
+                        "name": "convertwarp",
+                        "description": "general tool for combining multiple transforms into one"
+                    },
+                    {
+                        "name": "fnirt",
+                        "description": "non-linear registration",
+                        "children": [
+                            {
+                                "name": "applywarp",
+                                "description": "apply the warps estimated by fnirt to some image"
+                            },
+                            {
+                                "name": "fnirtfileutils",
+                                "description": "convert field->coefficients, coefficients->field, coefficients->other_coefficients"
+                            },
+                            {
+                                "name": "invwarp",
+                                "description": "|reverse| a non-linear mapping"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "flirt",
+                        "description": "automated linear (affine) intra- and inter-modal brain image registration",
+                        "children": [
+                            {
+                                "name": "convert_xfm",
+                                "description": "convert between different transformation file formats"
+                            },
+                            {
+                                "name": "epi_reg",
+                                "description": "register EPI images to structural images",
+                                "url": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FLIRT/UserGuide#epi_reg"
+                            },
+                            {
+                                "name": "img2imgcoord",
+                                "description": "calculates the corresponding coordinate positions within a destination volume given the original coordinates in the source volume and the transformation from the source to the destination volume"
+                            },
+                            {
+                                "name": "img2stdcoord",
+                                "description": "equivalent to img2imgcoord except destination volume coordinates are treated as standard space coordinates"
+                            },
+                            {
+                                "name": "mcflirt",
+                                "description": "intra-modal motion correction tool"
+                            },
+                            {
+                                "name": "avscale",
+                                "description": "displays the decomposed elements of an affine matrix"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "fslreorient2std",
+                        "description": "reorient an image to match the orientation of the standard template images"
+                    },
+                    {
+                        "name": "vecreg",
+                        "description": "registration vector images"
+                    }
+                ]
+            },
+            {
+                "name": "segmentation",
+                "children": [
+                    {
+                        "name": "fast",
+                        "description": "automated segmentation tool"
+                    },
+                    {
+                        "name": "first",
+                        "description": "model-based segmentation/registration tool",
+                        "children": [
+                            {
+                                "name": "run_first_all",
+                                "description": "run lower-level flirt utilities"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "bet",
+                        "description": "brain extraction tool"
+                    },
+                    {
+                        "name": "bet2",
+                        "description": "brain extraction tool"
+                    },
+                    {
+                        "name": "find_the_biggest",
+                        "description": "performs hard segmentation of a seed region on the basis of outputs of probtrackx"
+                    },
+                    {
+                        "name": "robustfov",
+                        "description": "automatically crop the image"
+                    }
+                ]
+            },
+            {
+                "name": "smoothing",
+                "children": [
+                    {
+                        "name": "smoothest",
+                        "description": "estimate smoothness from residual fMRI data"
+                    }
+                ]
+            },
+            {
+                "name": "statistics",
+                "children": [
+                    {
+                        "name": "flameo",
+                        "description": "performs higher level model fits"
+                    },
+                    {
+                        "name": "fslmaths",
+                        "description": "mathematical manipulation of images"
+                    },
+                    {
+                        "name": "fslstats",
+                        "description": "report image summary statistics"
+                    },
+                    {
+                        "name": "flim_gls",
+                        "description": "fit a design matrix to voxel timeseries"
+                    },
+                    {
+                        "name": "cluster",
+                        "description": "cluster-based inference"
+                    },
+                    {
+                        "name": "randomise",
+                        "description": "nonparametric permutation inference on neuroimaging data"
+                    },
+                    {
+                        "name": "fsl_glm",
+                        "description": "computes regression parameters"
+                    }
+                ]
+            },
+            {
+                "name": "utils",
+                "description": "utility tools",
+                "children": [
+                    {
+                        "name": "fslcpgeom",
+                        "description": "copy header information from one image to another"
+                    },
+                    {
+                        "name": "fslmerge",
+                        "description": "concatenate image files into a single output"
+                    },
+                    {
+                        "name": "fslroi",
+                        "description": "extract region of interest from an image"
+                    },
+                    {
+                        "name": "fslswapdim",
+                        "description": "re-orders the data storage to permit changes between axial, sagittal and coronal slicing"
+                    },
+                    {
+                        "name": "fslcomplex",
+                        "description": "allows 3D or 4D complex image files to be split or constructed from corresponding real components"
+                    }
+                ]
+            },
+            {
+                "name": "visualization",
+                "children": [
+                    {
+                        "name": "overlay",
+                        "description": "combine a background image with one or two statistics images"
+                    },
+                    {
+                        "name": "slicer",
+                        "description": "slice 3D images into 2D pictures with slices"
+                    },
+                    {
+                        "name": "fsl_tsplot",
+                        "description": "plot a timeseries"
+                    }
+                ]
+            },
+            {
+                "name": "fmri",
+                "children": [
+                    {
+                        "name": "feat",
+                        "description": "model-based FMRI data analysis",
+                        "children": [
+                            {
+                                "name": "flame"
+                            },
+                            {
+                                "name": "feat_model"
+                            },
+                            {
+                                "name": "contrast_mgr",
+                                "description": "evaluate contrasts"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "fslmeants",
+                        "description": "output the timeseries of voxels"
+                    },
+                    {
+                        "name": "melodic",
+                        "description": "independent component analysis"
+                    },
+                    {
+                        "name": "slicetimer",
+                        "description": "corrects for sampling offsets inherent in slice-wise EPI acquisition sequences"
+                    },
+                    {
+                        "name": "fslpspec",
+                        "description": "calculates the power spectral density for each time series"
+                    }
+                ]
+            }
+        ]
+    }
+]
