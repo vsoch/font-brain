@@ -5,6 +5,7 @@ import pandas
 import json
 import pickle
 import sys
+import os
 
 # Here is the path to the folder with xml files
 topfolder = sys.argv[1]
