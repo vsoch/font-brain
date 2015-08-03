@@ -41,4 +41,4 @@ for z in zips:
     urls[zname] = (find_urls(text)[1:])
 
 # Save to output file
-pickle.dump(urls,open("%s/%s_urls.pkl" %(outfolder,subfolder)),"wb")
+pickle.dump(urls,open("%s/%s_urls.pkl" %(outfolder,subfolder),"wb"))
