@@ -21,6 +21,7 @@ zips = glob("%s/*.tar.gz" %folder)
 with open(json_path) as data_file:    
     myjson = json.load(data_file)
 
+data = myjson
 commands = []
 for method in data[0]["children"]:
     if "commands" in method.keys():
