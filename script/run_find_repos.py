@@ -8,8 +8,8 @@ outfolder = "%s/repos" %(topfolder)
 subfolders = [ os.path.basename(x) for x in glob("%s/*" %pmcfolder)]
 json_path = "/home/vsochat/SCRIPT/python/font-brain/script/fsl.json"
 
-for subfolder in subfolders:
-if 1==1:
+for s in range(5000,len(subfolders)):
+    subfolder = subfolders[s]
     jobfile = open(".jobs/%s.job" %subfolder,'w')
     jobfile.writelines("#!/bin/bash\n")
     jobfile.writelines("#SBATCH --job-name=%s_count.job\n" %(subfolder))
