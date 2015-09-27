@@ -1,6 +1,6 @@
 # Font-Brain
 
-[Demo](http://vbmis.com/bmi/project/font-brain/)
+[Demo](http://vsoch.github.io/font-brain)
 
 ### Specification
 - Defines input(s), method(s), and output(s)

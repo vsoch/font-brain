@@ -257,96 +257,138 @@ a, a:link, a:hover, a:focus {
 }
 
 /* Icons */
-.icon-2mm:before {
+.icon-voxel:before {
 	content: "\e600";
 }
-.icon-3mm:before {
+.icon-vecreg:before {
 	content: "\e601";
 }
-.icon-4mm:before {
+.icon-tbss:before {
 	content: "\e602";
 }
-.icon-5mm:before {
+.icon-T2:before {
 	content: "\e603";
 }
-.icon-6mm:before {
+.icon-T1:before {
 	content: "\e604";
 }
-.icon-7mm:before {
+.icon-spm:before {
 	content: "\e605";
 }
-.icon-8mm:before {
+.icon-smooth:before {
 	content: "\e606";
 }
-.icon-axial:before {
+.icon-sagittal:before {
 	content: "\e607";
 }
-.icon-bet:before {
+.icon-reslicing-inverse:before {
 	content: "\e608";
 }
-.icon-concat:before {
+.icon-reslicing:before {
 	content: "\e609";
 }
-.icon-coronal:before {
+.icon-reslice:before {
 	content: "\e60a";
 }
-.icon-dti:before {
+.icon-registration:before {
 	content: "\e60b";
 }
-.icon-epi:before {
+.icon-qfdr:before {
 	content: "\e60c";
 }
-.icon-fmri:before {
+.icon-probtrackx:before {
 	content: "\e60d";
 }
-.icon-fnirt:before {
+.icon-pfwer:before {
 	content: "\e60e";
 }
-.icon-fsl:before {
+.icon-pbonf:before {
 	content: "\e60f";
 }
-.icon-glm:before {
+.icon-nifti:before {
 	content: "\e610";
 }
-.icon-mask:before {
+.icon-nidm:before {
 	content: "\e611";
 }
-.icon-mni:before {
+.icon-mprage:before {
 	content: "\e612";
 }
 .icon-motion:before {
 	content: "\e613";
 }
-.icon-mprage:before {
+.icon-mni:before {
 	content: "\e614";
 }
-.icon-registration:before {
+.icon-mask:before {
 	content: "\e615";
 }
-.icon-reslice:before {
+.icon-glm:before {
 	content: "\e616";
 }
-.icon-reslicing:before {
+.icon-fsl:before {
 	content: "\e617";
 }
-.icon-reslicing-inverse:before {
+.icon-fnirt:before {
 	content: "\e618";
 }
-.icon-sagittal:before {
+.icon-fmri:before {
 	content: "\e619";
 }
-.icon-smooth:before {
+.icon-fieldmap:before {
 	content: "\e61a";
 }
-.icon-spm:before {
+.icon-epi:before {
 	content: "\e61b";
 }
-.icon-T1:before {
+.icon-dtifit:before {
 	content: "\e61c";
 }
-.icon-T2:before {
+.icon-dti:before {
 	content: "\e61d";
 }
-.icon-1mm:before {
+.icon-crosshair:before {
 	content: "\e61e";
+}
+.icon-coronal:before {
+	content: "\e61f";
+}
+.icon-concat:before {
+	content: "\e620";
+}
+.icon-cluster:before {
+	content: "\e621";
+}
+.icon-bet:before {
+	content: "\e622";
+}
+.icon-bedpostx:before {
+	content: "\e623";
+}
+.icon-axial:before {
+	content: "\e624";
+}
+.icon-mm:before {
+	content: "\e625";
+}
+.icon-mm2:before {
+	content: "\e626";
+}
+.icon-mm3:before {
+	content: "\e627";
+}
+.icon-mm4:before {
+	content: "\e628";
+}
+.icon-mm5:before {
+	content: "\e629";
+}
+.icon-mm6:before {
+	content: "\e62a";
+}
+.icon-mm7:before {
+	content: "\e62b";
+}
+.icon-mm8:before {
+	content: "\e62c";
 }
